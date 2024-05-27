@@ -1,0 +1,118 @@
+.nv-a a {
+    text-decoration: none;
+    color: white;
+}
+
+.drop-content a {
+    background-color:azure;
+    padding-left: 4px;
+    margin-top: 0.1rem;
+}
+
+a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.banner img {
+    box-sizing:border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid black;
+    width: 100%;
+    height: 643px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li .drop-m {
+    display: inline-block;  
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+}
+
+.drop-m:hover .drop-content {
+    display: block;
+}
+
+div .drop-content a {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ci {
+    height: 100%;
+}
+
+.carousel-item img {
+    box-sizing: border-box;
+    object-fit: contain;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.container1 img{
+    object-fit: contain;
+    padding: 0;
+    margin-top: 5px;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container1 img:hover{
+    cursor: pointer;
+}
+
+.carousel-control-prev-icon {
+    background-color:chocolate;
+    color: #FFF;
+    border-radius: 2px;
+    border: 2px solid chocolate;
+    margin-right: auto;
+}
+
+.carousel-control-next-icon {
+    background-color:chocolate;
+    color: #FFF;
+    border-radius: 2px;
+    border: 2px solid chocolate;
+    margin-left: auto;
+}
+
+.carousel-caption h5 {
+    color:aqua;
+}
+
+.carousel-caption p {
+    color:chartreuse;
+}
+
+.container1 img:hover{
+    background-color: aqua;
+    color: #523B;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.log-div {
+    text-align: center;
+}
+
+.s-div {
+    text-align: center;
+}
+
+.legal-div {
+    text-align: center;
+}
